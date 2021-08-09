@@ -9,3 +9,7 @@ npx playwright install
 # Step 3: Run Test Case on Saucedemo.com
 
 sh test.sh
+
+# Step 4: You can add new test cases by using playwright codegen command
+
+npx playwright codegen https://example.com
